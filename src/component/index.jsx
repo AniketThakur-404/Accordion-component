@@ -1,10 +1,11 @@
 // single selection
+// open one section at a time
 
 import { useState } from "react"
 import data from "./data"
 
 // multiple selection 
-
+// can open multiple section same time
 
 export default function Accordion(){
     const [selected, setSelected] = useState(null);
